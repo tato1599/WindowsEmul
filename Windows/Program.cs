@@ -2,6 +2,9 @@ namespace Windows
 {
     internal static class Program
     {
+        public static Form1 f1 = null;
+        public static InicioSesion f2 = null;
+        public static Principalcs f3 = null;
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>

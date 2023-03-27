@@ -22,5 +22,13 @@ namespace Windows
         {
             lbdorn_hora.Text = DateTime.Now.ToString("hh:mm");
         }
+
+        private void Form1_KeyUp(object sender, KeyEventArgs e)
+        {
+            Program.f2 = new InicioSesion();
+            Program.f2.Show();
+            this.Hide();
+
+        }
     }
 }
